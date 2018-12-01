@@ -6,6 +6,12 @@
 			"name": "AOC 2018",
 			"selector": "source.python",
 			"shell_cmd": "\"py\" -3 -u \"$file\""
+		},
+		{
+			"file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
+			"name": "Anaconda Python Builder",
+			"selector": "source.python",
+			"shell_cmd": "\"python\" -u \"$file\""
 		}
 	],
 	"folders":
